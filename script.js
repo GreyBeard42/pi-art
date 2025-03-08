@@ -2,7 +2,7 @@ let range = 1 // chunk *= range
 let limit = 360 // chunk %= limit
 let add = 0 // chunk += add
 
-fetch("pi1-100-thousand.txt")
+fetch("https://cdn.jsdelivr.net/gh/GreyBeard42/pi-art@main/pi1-100-thousand.txt")
     .then(file => file.text())
     .then(data => {
         let row = document.createElement("div")
